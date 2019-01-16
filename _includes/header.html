@@ -1,0 +1,7 @@
+<header>
+  <ul class="nav">
+    {% for page in site.data.pages %}
+    <li><a href="{{ site.baseurl }}{{page.url}}" class="{%if page.url == page.url %} active {% endif %}">{{page.title}}</a></li>
+    {% endfor %}
+  </ul>
+</header>
