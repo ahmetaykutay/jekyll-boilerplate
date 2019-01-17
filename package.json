@@ -8,12 +8,16 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "webpack --watch"
+    "start": "webpack --watch --mode=development",
+    "build": "webpack --mode=development"
   },
   "dependencies": {
     "webpack": "^4.28.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
     "webpack-cli": "^3.2.1"
   }
 }
