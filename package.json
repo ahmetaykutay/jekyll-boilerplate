@@ -1,0 +1,19 @@
+{
+  "name": "jekyll-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "src/js/index.js",
+  "repository": "https://github.com/ahmetaykutay/jekyll-boilerplate.git",
+  "author": "ahmet aykut ay",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "dependencies": {
+    "webpack": "^4.28.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
