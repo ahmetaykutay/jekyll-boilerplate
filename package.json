@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "webpack --watch --mode=development",
+    "start": "webpack --watch --mode=development | jekyll serve",
     "build": "webpack --mode=development"
   },
   "dependencies": {
